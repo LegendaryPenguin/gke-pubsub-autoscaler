@@ -1,6 +1,5 @@
 # Implementation
 
-This is a simple project to build a k8s cluster of scalable apps to process messages from PubSub topic. 
 
 There is a topic - postbox - where Bob can publish messages to, and a cluster of listeners (letter-reader app) subscribed to this topic. These applications can pickup messages from the topic and process them.
 
